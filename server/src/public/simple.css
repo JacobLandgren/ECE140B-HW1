@@ -1,0 +1,23 @@
+body{
+  background-color: antiquewhite;
+}
+
+h1{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h2{
+  padding: 1rem;
+  margin: 1rem;
+  text-decoration: underline;
+}
+li{
+  margin: 1rem;
+}
+
+div{
+  margin: 1rem;
+  padding: 1rem;
+  color: dimgray;
+}

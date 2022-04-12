@@ -15,7 +15,9 @@ h2{
   text-decoration: underline;
 }
 li{
-  margin: 1rem;
+  margin: auto;
+  text-align: left;
+  width: 40%;
 }
 
 div{

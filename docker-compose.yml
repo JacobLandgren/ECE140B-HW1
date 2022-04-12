@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  web-server:
+    build:
+      context: ./server
+    ports:
+      - 80:6000 # host : container
+    env_file:
+      ./credentials.env
+    volumes:
+      - ./server/src:/app
+    container_name: agile-web
+

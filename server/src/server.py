@@ -7,10 +7,10 @@ def get_home(req):
   return FileResponse("index.html")
 
 def get_product(req):
-      return FileResponse("product.html")
+  return FileResponse("product.html")
     
 def get_kvp(req):
-      return FileResponse("KVP.html")
+  return FileResponse("KVP.html")
 
 ''' Route Configurations '''
 if __name__ == '__main__':

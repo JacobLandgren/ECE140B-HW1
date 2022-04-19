@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+    margin: auto;
+    margin-left: 1rem;
+  }
+  
+  h1{
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  h2{
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: underline;
+  }
+  
+  
+  div{
+    margin: 1rem;
+    padding: 1rem;
+    margin-right: 40%;
+  }
+  
+  h3{
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+  }
+
+  li{
+    margin: 1rem;
+    padding: 1rem;
+    margin-right: 40%;
+  }

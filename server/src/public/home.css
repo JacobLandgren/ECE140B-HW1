@@ -19,5 +19,12 @@ h2{
 div{
   margin: 1rem;
   padding: 1rem;
-  color: dimgray;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h3{
+  padding: 1rem;
+  margin: 1rem;
+  font-weight: bold;
 }

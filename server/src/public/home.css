@@ -20,12 +20,18 @@ h2{
 div{
   margin: 1rem;
   padding: 1rem;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 h3{
   padding: 1rem;
   margin: 1rem;
   font-weight: bold;
+}
+
+.box{
+  border-style: double;
+  border-width: 2px;
+  border-color: black;
 }

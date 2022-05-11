@@ -34,3 +34,16 @@ body{
     padding: 1rem;
     margin-right: 40%;
   }
+
+  .box{
+    border-style: double;
+    border-width: 2px;
+    border-color: black;
+    margin-right: 30;
+  }
+
+  .subdiv{
+    padding: 1rem;
+    margin: 1rem;
+    margin-right: 20%;
+  }

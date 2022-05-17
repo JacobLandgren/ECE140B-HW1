@@ -18,6 +18,9 @@ def get_UI(req):
 def get_IA(req):
   return FileResponse("IA.html")
 
+def get_features(req):
+  return FileResponse("features.html")
+
 ''' Route Configurations '''
 if __name__ == '__main__':
   config = Configurator()
@@ -36,6 +39,9 @@ if __name__ == '__main__':
   
   config.add_route('get_IA', '/IA')
   config.add_view(get_IA, route_name='get_IA')
+  
+  config.add_route('get_features', '/features')
+  config.add_view(get_features, route_name='get_features')
 
   config.add_static_view(name='/', path='./public', cache_max_age=3600)
 

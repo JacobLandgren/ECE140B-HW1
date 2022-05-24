@@ -43,7 +43,7 @@ if __name__ == '__main__':
   config.add_route('get_IA', '/IA')
   config.add_view(get_IA, route_name='get_IA')
   
-  config.add_route('get_revenue', '/IA')
+  config.add_route('get_revenue', '/revenue')
   config.add_view(get_revenue, route_name='get_revenue')
   
   config.add_route('get_features', '/features')

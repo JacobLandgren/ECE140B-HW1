@@ -24,6 +24,9 @@ def get_features(req):
 def get_revenue(req):
   return FileResponse("revenue.html")
 
+def get_pivots(req):
+  return FileResponse("pivot.html")
+
 ''' Route Configurations '''
 if __name__ == '__main__':
   config = Configurator()
@@ -48,6 +51,9 @@ if __name__ == '__main__':
   
   config.add_route('get_features', '/features')
   config.add_view(get_features, route_name='get_features')
+
+  config.add_route('get_pivots', '/pivots')
+  config.add_view(get_pivots, route_name='get_pivots')
 
   config.add_static_view(name='/', path='./public', cache_max_age=3600)
 
